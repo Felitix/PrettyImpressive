@@ -1,18 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h1 {
+        background-color: chartreuse;
+      }
+      body {
+        background: linear-gradient(
+          210deg,
+          rgb(207, 16, 9),
+          rgb(193, 241, 253)
+        );
+        background-repeat: no-repeat;
+      }
+      img {
+        border-radius: 0.65rem;
+        height: 95%;
+        width: 400px;
+      }
+      .images {
+        height: 400px;
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
     <title>Home</title>
-</head>
-<body>
-    <H1>
-        Yokoso Watashino Soul Society
-    </H1>
+  </head>
+  <body>
+    <h1 style="color: purple">Yokoso Watashino Soul Society</h1>
 
-    <p>Well This is not very nice but we'll just keep moving foward</p>
-    <img src="Resources/img1.jpg" alt="Img1" >
-    <img src="Resources/img2.jpg" alt="Img2" >
-
-</body>
+    <p style="font-family: cursive; background-color: purple; color: azure">
+      Well This is not very nice but we'll just keep moving foward
+    </p>
+    <div class="images">
+      <img src="Resources/img1.jpg" alt="Img1" />
+      <img src="Resources/img2.jpg" alt="Img2" />
+    </div>
+  </body>
 </html>
