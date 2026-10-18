@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: white;
+  text-align: center;
+  background-color: rgb(51, 51, 51);
+  padding: 50px;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+  padding: 8px;
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(85, 85, 85);
+  padding: 15px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+
+nav a:hover {
+  color: aquamarine;
+  border-bottom: 2px solid aquamarine;
+}
