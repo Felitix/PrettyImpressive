@@ -10,8 +10,8 @@ header h1 {
 }
 .flexcontainer {
   display: flex;
+
   border: 2px solid rgb(224, 164, 174);
-  min-height: 400px;
 }
 
 .flex-item {
@@ -20,6 +20,5 @@ header h1 {
   background-color: rgb(19, 82, 82);
   padding: 10px;
   margin: 5px;
-  width: 250px;
-  height: 250px;
+  min-width: 250px;
 }
